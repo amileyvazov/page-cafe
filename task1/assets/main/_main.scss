@@ -1,0 +1,255 @@
+.section-text{
+    margin:10%;
+    position: relative;
+    height: 500px;
+    .img-section{
+        width: 65%;
+        height:auto;
+        position: absolute;
+        right: 5px;
+        
+    }
+}
+.section-item{
+    margin: 15% 1% 0%;
+    .item{
+        background-color:$free-color;
+        font-size: 48px;
+        position: absolute;
+        z-index: 1;
+        color: white;
+        padding: 5px 30px 5px 5px;
+    }
+    .best{
+        font-size: 48px;
+        color: black;
+        position: relative;
+        z-index: 1;
+    }
+}
+.section-item1{
+width: 100%;
+    .item1{
+        i{
+            font-size: 150px;
+        }
+        i:hover{
+            color:$free-color;
+        }
+    }
+    p{
+        font-size: 30px;
+        width: 300px;
+    }
+}
+.section-item2{
+    margin: 2%;
+    display: flex;
+    justify-content: end;
+    .item2 {
+        text-align: center;
+        .bag{
+            font-size: 100px;
+            i:hover{
+                color:$free-color;
+            }
+        }
+        p{
+            font-size: 30px;
+            width: 410px;
+            text-align:center;
+        }
+    }
+}
+.section-item3{
+    width: 100%;
+    .heart{
+        font-size: 110px;
+        i:hover{
+            color:$free-color;
+        }
+    }
+    p{
+        font-size: 30px;
+        width: 440px;
+        text-align:right;
+    }
+}
+.number{
+    background-color: $free-color;
+    padding: 10%;
+    .number-title {
+        text-align: center;
+        width: 25%;
+    }
+    .word {
+        width: 50%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        padding: 0 50px;
+    }
+    h2{
+        color: #fff;
+        font-size: 100px;
+        font-weight: 300;
+
+    }
+    h4{
+        color:#fff;
+        font-size: 24px;
+        font-weight: 300;
+        
+    }
+    p{
+        font-size: 17px;
+        color: #fff;
+        font-weight: 200;
+        
+    }
+}
+.portfolio{
+    text-align: center;
+    p{
+        font-size: 18px;
+        font-weight: 400;
+        color:#000;
+    }
+    h2{
+        font-size:46px;
+        font-weight: 400;
+        color: $free-color;
+    }
+}
+#reviews { 
+     display: inline-block;
+    justify-content: center;
+    .reviews-header{
+        text-align: center;
+        font-size:40px;
+    }
+    margin-top: 50px;
+    .reviews-item {
+        width: 100%;
+      
+        img {
+            width:100px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    }
+    .rev-buton{ 
+         display: flex;
+          justify-content: center;
+        .button{
+            margin: 30px 5px;
+            width: 20px;
+            height: 20px;
+            background-color: #000;
+            border-radius: 50%;
+        
+        }
+        
+    }
+    #end{
+        font-size: 90px;
+        display: flex;
+        justify-content: end;
+        color: $free-color;
+    }
+    #start{
+       font-size: 90px;
+       justify-content: start;
+       display: flex; 
+       color: $free-color; 
+    }
+}
+#menu{
+    text-align: center;
+    margin: 80px 0px;
+   .menu-body{
+    h2{
+        font-size: 50px;
+        font-weight: 300;
+        color: $free-color;
+    }
+    h4{
+        font-size: 20px;
+        font-weight: 300;
+        padding: 10px;
+    }
+   }
+
+    .menu-item1{
+        padding: 150px 0px;
+        
+        .menu-text1{
+            padding: 10px;
+            h4{
+                padding: 10px;
+            }
+            i{
+                display: none;
+            }
+        }
+       .menu-text1:hover{
+         background-color: $free-color;
+         color: #fff;
+         i{
+          display: inline-block;
+         padding: 10px;
+         }
+        }
+    }
+   .menu-img1{
+     img{
+      width: 100%;
+      font-size: 300px;
+      img:hover{
+      font-size: 400px;
+      cursor: pointer;
+      }
+    }
+   }
+    
+}
+#search{
+    text-align: center;
+   
+     h4{
+        font-size: 20px;
+        font-weight: 300;
+        
+     }
+     h1{
+        font-size: 50px;
+        font-weight: 300;
+        color: $free-color; 
+        margin-bottom: 150px ;
+     }
+     .search-item{
+        border: 1px solid #fff;
+        padding: 80px ;
+        background-color: #fff;
+        position: absolute;
+        z-index: 1;
+        margin-bottom: 10px;
+       input{
+        font-size: 20px;
+        align-items: center;
+        margin: 0 10px;
+        padding: 5px 10px;
+       }
+       a{
+        text-decoration: none;
+        color: #fff;
+        background-color: $free-color;
+        font-size: 30px;
+        padding: 10px;
+        border-radius: 20%;
+       } 
+     }
+}
